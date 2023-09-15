@@ -26,4 +26,6 @@ Are you a Fedora user looking for a straightforward way to install Nvidia driver
 ./fedora-nvidia.sh
 ```
 > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+> The script automatically installs all dependencies and drivers, after installation the script automatically restarts the computer.
+
+Enjoy
