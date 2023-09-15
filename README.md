@@ -22,4 +22,8 @@ Are you a Fedora user looking for a straightforward way to install Nvidia driver
 
 **3.** Run the script using the following command:
 
-
+```bash
+./fedora-nvidia.sh
+```
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
