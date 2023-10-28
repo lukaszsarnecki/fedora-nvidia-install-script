@@ -76,7 +76,7 @@ echo -ne "Wait for 5 minutes for the changes to take effect. Script will reboot 
                  min=59
                  let "hour=hour-1"
          done
-clear          
+        
 echo -ne "The countdown is over, system will be reboot shortly"
 sleep 20
 
