@@ -58,7 +58,7 @@ sleep 5; clear
 
 # Step 6: Reboot your system =============================================
 
-echo -e "Wait for 5 minutes for the changes to take effect. Script will reboot system automatically after this time"
+echo -ne "Wait for 5 minutes for the changes to take effect. Script will reboot system automatically after this time"
  hour=0
  min=5
  sec=0
@@ -76,8 +76,8 @@ echo -e "Wait for 5 minutes for the changes to take effect. Script will reboot s
                  min=59
                  let "hour=hour-1"
          done
-          
+clear          
 echo -ne "The countdown is over, system will be reboot shortly"
 sleep 20
 
-sudo reboot
+reboot
